@@ -87,25 +87,25 @@ namespace ejercicio_colas_y_pilas
             Hoja.Cells[1, "B"] = "ENCOLAR";
             Hoja.Cells[1, "C"] = "DESENCOLAR";
             
-            var fila = 1;
+            int fila = 1;
             for (int n = 0; n < listBox1.Items.Count; n++)
             {
                 fila++;
                 Hoja.Cells[fila, "A"] = n + 1;
             }
 
-
+            int fila2 = 1;
             foreach (var item in listBox1.Items)
             {
-                fila++;
-                Hoja.Cells[fila, "B"] = item;
+                fila2++;
+                Hoja.Cells[fila2, "B"] = item;
                 Hoja.Columns[2].Autofit();
             }
-
+            int fila3 = 1;
             foreach (var item2 in listBox2.Items)
             {
-                fila++;
-                Hoja.Cells[fila, "C"] = item2;
+                fila3++;
+                Hoja.Cells[fila3, "C"] = item2;
                 Hoja.Columns[3].Autofit();
             }
 
