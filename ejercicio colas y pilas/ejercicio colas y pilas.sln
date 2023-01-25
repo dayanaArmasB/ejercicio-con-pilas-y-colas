@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio colas y pilas", "ejercicio colas y pilas\ejercicio colas y pilas.csproj", "{D142FE04-1E2A-4ED0-B130-40B95F0D815D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pilas", "pilas\pilas.csproj", "{3DD57543-1216-41F1-954B-B2DFB520FA32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D142FE04-1E2A-4ED0-B130-40B95F0D815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D142FE04-1E2A-4ED0-B130-40B95F0D815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D142FE04-1E2A-4ED0-B130-40B95F0D815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D142FE04-1E2A-4ED0-B130-40B95F0D815D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD57543-1216-41F1-954B-B2DFB520FA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD57543-1216-41F1-954B-B2DFB520FA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD57543-1216-41F1-954B-B2DFB520FA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD57543-1216-41F1-954B-B2DFB520FA32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AE3A7B7-6F4B-44CE-9D4A-096181803BA8}
+	EndGlobalSection
+EndGlobal
